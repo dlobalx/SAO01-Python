@@ -16,6 +16,7 @@ def autenticar_usuario():
 
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
+    #teste#
 
     # vamos obter o valor da caixa de texto usuário
     usuario = txt_usuario.get()
